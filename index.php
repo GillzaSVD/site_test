@@ -40,7 +40,7 @@ function polet(Duck $duck){
     <title></title>
   </head>
   <body>
-    <button type="button" name="button" onclick="alert('<?php echo polet(new MallardDuck())?>')">Кряква</button></br>
+    <button type="button" name="button" onclick="alert('<?php echo polet(new MallardDuck())?>')">Кряква</button><p></p>
     <button type="button" name="button" onclick="alert('<?php echo polet(new RubberDuck())?>')">Резиновая уточка</button>
   </body>
 </html>
